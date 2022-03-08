@@ -2,6 +2,8 @@ _build
 
 .ipynb_checkpoints
 .vscode
+.history
+.venv
 */.ipynb_checkpoints/*
 .tox
 .nox
