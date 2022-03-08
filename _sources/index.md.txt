@@ -1,23 +1,25 @@
 # Modern tools for scientific Python programming
 
-This contains the content for a series of three tutorials. Those tutorials were originally held
-at the Geneva Observatory in Spring 2022. They use packages and techniques that are stable and
-state-of-the-art at that period.
+Go to the [introduction](introduction.md).
 
-While the tutorials have been designed for an audience of astrophysicists, they should be relevant
-for researchers in various areas of physics. Our aim is to introduce tools and techniques that
-satisfy the criteria below:
+```{toctree}
+:maxdepth: 1
+:caption: Introduction
+:hidden:
 
-- the tools integrate well with existing coding practices and they can be adopted incrementally
+introduction
+```
 
-- the information about the code is in a single place, in the code itself, and is amenable to
-  automated checks
+```{toctree}
+:maxdepth: 2
+:caption: Visual Studio Code
+:hidden:
 
-- the tools and techniques apply to code at various stages of maturity (scripts, prototypes, 
-  as well as mature published packages)
-
-Tutorial 1: install Visual Studio Code with recommended extensions / settings
-
-Tutorial 2: 
-
-Tutorial 3:
+vscode/why
+vscode/installation
+vscode/extensions
+vscode/settings
+vscode/setup/index
+vscode/extras
+vscode/shortcuts
+```
