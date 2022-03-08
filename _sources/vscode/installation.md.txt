@@ -13,7 +13,7 @@ Snap sandboxing.
 
 * https://code.visualstudio.com/docs/setup/linux
 
-Obtain a [compact title bar](vscode/appearance.md#title_bar).
+Setting to obtain a {ref}`compact title bar <appearance/title_bar>`.
 
 ## On Mac
 

@@ -27,7 +27,7 @@ I like https://www.jetbrains.com/lp/mono/, with the options:
     "editor.fontLigatures": true,
 ```
 
-(title_bar)=
+(appearance/title_bar)=
 ## Compact title bar on Linux
 
 ![Compact title bar on Linux](compact-titlebar.png)

@@ -5,7 +5,7 @@
 Install the Python extension:
 - [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-This Python extension will install the follwing extensions:
+This Python extension will install the following extensions:
 - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) which implements support for Jupyter notebooks (though the `jupyterlab` PyPI package needs to be installed in the current Python environment)
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) which parses and checks Python code.
 - [Jupyter Notebook Renderers](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers) to render notebooks.
