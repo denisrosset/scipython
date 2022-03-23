@@ -23,3 +23,28 @@ vscode/setup/index
 vscode/extras
 vscode/shortcuts
 ```
+
+```{toctree}
+:maxdepth: 2
+:caption: Managing packages
+:hidden:
+
+packages/index
+packages/publishing
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Testing
+:hidden
+
+testing/index
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Publishing documentation
+:hidden:
+
+documentation/index
+```
