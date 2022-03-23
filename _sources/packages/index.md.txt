@@ -28,9 +28,12 @@ mkdir testproj
 python -m venv .venv
 ```
 
-.. and you do not need to do anything special to use Poetry.
+- If you are not happy with the system Python version, use [pyenv](https://github.com/pyenv/pyenv)
+  (I haven't tried those)
 
-- If you are not happy with the system Python version:
+for these two last options, and you do not need to do anything special to use Poetry.
+
+- If you want to use Conda:
 
   Use Conda to set non-Python-package things, such as the Python interpreter
 
@@ -38,6 +41,8 @@ python -m venv .venv
 conda create -n testproj_env python==3.10
 conda activate testproj_env
 ```
+
+.. but you'll need to activate the Conda environment before using Poetry on the command line.
 
 Note: the only weak spot of Poetry is publishing packages with C/C++/Fortran/Cython code. The workaround I'd recommend is this: put the C/C++/Fortran/Cython parts in a separate package managed by an old-style `setup.py` script, where you can use wonderful legacy tools such a `f2py` etc. Then add this separate package as a requirement in your main project.
 
@@ -221,6 +226,7 @@ from adder import addition
 def test_addition() -> None:
    assert addition(2, 2) == 4
 ```
-
+## A few words about `poetry run`
 
 ## A few words about `poetry.lock`
+
